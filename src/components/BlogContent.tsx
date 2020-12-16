@@ -30,9 +30,9 @@ export default function Content() {
                 </div>
                 <div className="container flex flex-col items-center">
                     <div className="flex flex-col items-stretch w-5/6 sm:w-3/4">
-                        <h1 className="blog-title pl-2 md:pl-8">How realAppeal helped a Homeowner reduce their property taxes</h1>
-                        <h2 className="blog-sub-title pl-2 md:pl-8">How filing a Decline-in-Value helped one customer save thousands of dollars on their property tax bill.</h2>
-                        <img src="{image}" className="w-full" alt=""/>
+                        <h1 className="blog-title">How realAppeal helped a Homeowner reduce their property taxes</h1>
+                        <h2 className="blog-sub-title">How filing a Decline-in-Value helped one customer save thousands of dollars on their property tax bill.</h2>
+                        <img src={image} className="w-full" alt=""/>
                         <div className="bg-gray-700 my-8 w-full" style={{height: '2px'}}></div>
                         <p className="blog-text">In 2017, Brian and Fessica purchased their dream home in Southern California. Over the next few years, they watched their tax assessment and tax bill creep up as expected, but at the same time other homes in their neighborhood were selling for less than they paid for theirs. Jessica reached out to the county assessor’s office. She spent over 30 minutes on hold and was told to file something called a Proposition 8 claim that could be found on their website. Ater looking into the Decline in Value appeal and the Assessment Appeals Board they were not sure what to do.</p>
                         <h3 className="blog-heading">Finding a better way</h3>
