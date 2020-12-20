@@ -1,0 +1,10 @@
+const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj) <br/>
+const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)    <br/>
+const unfold = (f, seed) => { <br/>
+  <ul>const go = (f, seed, acc) => {
+    <li> const res = f(seed)</li>
+    <li> return res ? go(f, res[1], acc.concat([res[0]])) : acc</li>
+  }
+  return go(f, seed, [])
+    </ul> 
+}

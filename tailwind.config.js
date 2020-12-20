@@ -22,11 +22,8 @@ module.exports = {
       red: colors.red,
       yellow: colors.amber,
       green: colors.emerald,
-      brand: {
-        default: '#63b7af',
-        dark: '#53a79f',
-      },
       blue: colors.blue,
+      orange: colors.orange,
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,
@@ -167,6 +164,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Work Sans',
         'ui-sans-serif',
         'system-ui',
         '-apple-system',
@@ -630,6 +628,7 @@ module.exports = {
       500: '500ms',
       700: '700ms',
       1000: '1000ms',
+      2000: '2000ms',
     },
     transitionDelay: {
       75: '75ms',
